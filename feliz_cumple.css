@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4F5F7;
+    font-family: "Great Vibes", cursive;
+    font-size: 5vw;
+    font-weight: 800;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+h2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4F6F7;
+    font-family: "Great Vibes", cursive;
+    font-size: 5vw;
+    font-weight: 800;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+p {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4F6F7;
+    font-size: 2.5vw;
+    white-space: nowrap;
+    /* Prevent text from wrapping to next line */
+}
+
+
+/* Media queries for screens up to 600px wide */
+
+@media screen and (max-width: 600px) {
+    h1,
+    h2 {
+        font-size: 8vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+}
+
+
+/* Media queries for screens up to 400px wide */
+
+@media screen and (max-width: 400px) {
+    h1,
+    h2 {
+        font-size: 12vw;
+    }
+    p {
+        font-size: 7vw;
+    }
+}
